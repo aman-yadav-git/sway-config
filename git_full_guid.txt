@@ -57,6 +57,7 @@ git log --oneline --all --graph
 git log --oneline
 git log 
 git show
+git log --oneline --decorate --graph --all
 
 git reset --soft HEAD~1
 git reset --hard HEAD~1
@@ -78,6 +79,7 @@ git add file.sh
 git add .
 git commit -m "added bash scripts"
 git push origin main
+git pull --rebase origin main
 
 ================================================
 
